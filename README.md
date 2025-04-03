@@ -46,8 +46,6 @@ Contains details about sales representatives and their respective regions.
 
 ### 1. **Key Performance Indicators (KPIs)**
 **Objective:** Calculate and display Total Sales, Total Profit, Total Quantity, Number of Orders, and Profit Margin dynamically.
-![image](https://github.com/user-attachments/assets/dbc527da-cf48-4698-95a2-38b9fa107856)
-
 
 **Steps:**
 1. Import the **Orders Table** into Excel using Power Query.
@@ -60,6 +58,8 @@ Contains details about sales representatives and their respective regions.
    - `Total Quantity` = `=SUM(Quantity)`.
 4. Build a dynamic KPI table and use symbols to enhance visual appeal.
 
+![image](https://github.com/user-attachments/assets/dbc527da-cf48-4698-95a2-38b9fa107856)
+
 ### 2. **Sales and Profit Analysis**
 **Objective:** Visualize sales and profit trends over time to identify patterns.
 
@@ -68,6 +68,8 @@ Contains details about sales representatives and their respective regions.
 2. Add `Sales` and `Profit` as values.
 3. Create a **Line Chart** to display trends for Sales and Profit.
 4. Apply slicers to filter by category, market, or region dynamically.
+
+![image](https://github.com/user-attachments/assets/15a0cfe3-df1f-4868-8b07-caa12a0d7275)
 
 ### 3. **Category-Wise Profit**
 **Objective:** Analyze profitability across product categories.
@@ -78,6 +80,8 @@ Contains details about sales representatives and their respective regions.
 3. Create a **Bar Chart** to visualize category-wise profit.
 4. Add slicers for interactivity.
 
+![image](https://github.com/user-attachments/assets/59484176-7182-4761-89d4-92e9ad34339f)
+
 ### 4. **Segment-Wise Sales Share (%)**
 **Objective:** Display the proportion of sales for each customer segment.
 
@@ -86,6 +90,8 @@ Contains details about sales representatives and their respective regions.
 2. Calculate percentage share using `=Sales / Total Sales * 100`.
 3. Create a **Pie Chart** or **Donut Chart** to display the sales share.
 4. Add labels to show percentage values dynamically.
+
+![image](https://github.com/user-attachments/assets/cf6f4265-d385-4f5b-b5e9-72661fdcf0e8)
 
 ### 5. **Sales by Country**
 **Objective:** Analyze sales performance by country.
@@ -96,6 +102,8 @@ Contains details about sales representatives and their respective regions.
 3. Use conditional formatting or a **Heatmap** to highlight top-performing countries.
 4. Alternatively, use a **Geographic Map Chart** to visualize sales geographically.
 
+![image](https://github.com/user-attachments/assets/05075d64-affa-4855-b8cc-19067e538755)
+
 ### 6. **Top 5 Subcategories**
 **Objective:** Identify the top 5 performing subcategories.
 
@@ -105,6 +113,8 @@ Contains details about sales representatives and their respective regions.
 3. Filter to display the top 5 Sub-Categories.
 4. Use a **Column Chart** to visualize results.
 
+![image](https://github.com/user-attachments/assets/94103547-cfc2-47e2-85c5-330a8adeeaac)
+
 ### 7. **Bottom 5 Subcategories**
 **Objective:** Highlight underperforming subcategories.
 
@@ -112,6 +122,9 @@ Contains details about sales representatives and their respective regions.
 1. Use the same **Pivot Table** as above but sort in ascending order of Sales.
 2. Filter to display the bottom 5 Sub-Categories.
 3. Use a **Column Chart** with contrasting colors to emphasize low-performing categories.
+
+![image](https://github.com/user-attachments/assets/846a399d-391a-401d-8593-74e10210d6d5)
+
 
 ### 8. **Yearly Sales Trends**
 **Objective:** Analyze sales trends over multiple years.
@@ -121,6 +134,8 @@ Contains details about sales representatives and their respective regions.
 2. Add `Sales` as values.
 3. Create a **Line Chart** to show the trend.
 4. Use slicers to filter by category, region, or segment.
+
+![image](https://github.com/user-attachments/assets/7f259113-ae03-4ccc-a5bc-54aa49d07452)
 
 ---
 
@@ -153,4 +168,7 @@ This dashboard empowers retail businesses to:
 This repository includes:
 - Visual examples for each solved problem statement.
 - Snapshots of the final dashboard with all components.
+
+- ![image](https://github.com/user-attachments/assets/c6344c4e-c9b3-4243-b3c7-4b84fcbb50d6)
+
 
